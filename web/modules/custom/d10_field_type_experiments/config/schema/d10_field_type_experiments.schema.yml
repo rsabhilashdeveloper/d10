@@ -1,0 +1,31 @@
+field.storage_settings.box:
+  type: mapping
+  label: Box storage settings
+  mapping:
+    shape:
+      type: label
+      label: Shape
+
+field.field_settings.box:
+  type: mapping
+  label: Weight of the box
+  mapping:
+    weight:
+      type: label
+      label: Weight
+
+field.widget.settings.d10_field_type_experiments_boxwidget:
+  type: mapping
+  label: BoxWidget widget settings
+  mapping:
+    show_helptext:
+      type: boolean
+      label: true
+
+field.value.d10_field_type_experiments_samplefield:
+  type: mapping
+  label: Default value
+  mapping:
+    value:
+      type: label
+      label: Value

@@ -1,0 +1,28 @@
+config_schema_study.settings:
+  type: config_object
+  label: Config Study Datas
+  mapping:
+    length:
+      type: string
+      label: 'Length'
+    breadth:
+      type: string
+      label: 'Breadth'
+    height:
+      type: string
+      label: 'Height'
+    color:
+      type: string
+      label: 'Color'
+    size:
+      type: string
+      label: 'Size'
+    additional_html:
+      type: text
+      label: 'Additional HTML'
+    categories:
+       type: sequence
+       label: 'Categories'
+       sequence:
+         type: string
+         label: 'Items'

@@ -1,0 +1,5 @@
+name: D10 Field Type Experiments
+type: module
+description: Custom module for field type study
+package: d10
+core_version_requirement: ^9 || ^10

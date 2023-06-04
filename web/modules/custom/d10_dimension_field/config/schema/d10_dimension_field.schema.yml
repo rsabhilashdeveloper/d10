@@ -1,0 +1,31 @@
+field.storage_settings.d10_dimension_field_dimension_field:
+  type: mapping
+  label: Dimension Field storage settings
+  mapping:
+    description_text:
+      type: string
+      label: Description Text
+
+field.field_settings.d10_dimension_field_dimension_field:
+  type: mapping
+  label: Dimension Field field settings
+  mapping:
+    show_color_field:
+      type: boolean
+      label: Show color field
+
+field.value.d10_dimension_field_dimension_field:
+  type: mapping
+  label: Default value
+  mapping:
+    value:
+      type: label
+      label: Value
+
+field.widget.settings.d10_dimension_field_dimensionwidget:
+  type: mapping
+  label: DimensionWidget widget settings
+  mapping:
+    foo:
+      type: string
+      label: Foo

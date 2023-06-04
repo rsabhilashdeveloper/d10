@@ -1,0 +1,25 @@
+uuid: 8b1ac0cb-42c8-49e4-ab19-8bcff02968c1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_article
+    - node.type.events
+id: node.events.field_article
+field_name: field_article
+entity_type: node
+bundle: events
+label: Article
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: views
+  handler_settings:
+    view:
+      view_name: events
+      display_name: entity_reference_1
+      arguments: {  }
+field_type: entity_reference

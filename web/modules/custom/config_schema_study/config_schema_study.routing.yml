@@ -1,0 +1,7 @@
+config_schema_study.config_study_settings:
+  path: '/admin/config/system/config-study-settings'
+  defaults:
+    _title: 'Config study settings'
+    _form: 'Drupal\config_schema_study\Form\ConfigStudySettingsForm'
+  requirements:
+    _permission: 'administer site configuration'

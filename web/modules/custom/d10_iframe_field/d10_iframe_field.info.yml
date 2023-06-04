@@ -1,0 +1,6 @@
+name: D10 Iframe Field
+type: module
+description: Custom field type for iframe code
+package: Custom
+core: 8.x
+core_version_requirement: ^8 || ^9 || ^10

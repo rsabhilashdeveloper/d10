@@ -1,0 +1,7 @@
+d10_oops.example:
+  path: '/d10-oops/example'
+  defaults:
+    _title: 'Example'
+    _controller: '\Drupal\d10_oops\Controller\D10OopsController::build'
+  requirements:
+    _permission: 'access content'

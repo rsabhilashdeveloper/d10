@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * @file
+ * Primary module hooks for Config Schema Study module.
+ */
+
+function config_schema_study_update_10001()
+{
+  $config = \Drupal::configFactory()->getEditable('config_schema_study.settings');
+  $config->set('size', '80');
+  $config->save(TRUE);
+}

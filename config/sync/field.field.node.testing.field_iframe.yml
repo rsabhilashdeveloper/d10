@@ -1,0 +1,22 @@
+uuid: 2f677b53-6ac6-4e04-bc22-b7d122bb242c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_iframe
+    - node.type.testing
+  module:
+    - d10_iframe_field
+id: node.testing.field_iframe
+field_name: field_iframe
+entity_type: node
+bundle: testing
+label: Iframe
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  bar: beer
+field_type: d10_iframe_field_iframe_field

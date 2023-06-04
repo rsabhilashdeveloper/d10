@@ -1,0 +1,23 @@
+field.storage_settings.d10_iframe_field_iframe_field:
+  type: mapping
+  label: Iframe Field storage settings
+  mapping:
+    foo:
+      type: string
+      label: Foo
+
+field.field_settings.d10_iframe_field_iframe_field:
+  type: mapping
+  label: Iframe Field field settings
+  mapping:
+    bar:
+      type: string
+      label: Bar
+
+field.value.d10_iframe_field_iframe_field:
+  type: mapping
+  label: Default value
+  mapping:
+    iframe:
+      type: label
+      label: Value

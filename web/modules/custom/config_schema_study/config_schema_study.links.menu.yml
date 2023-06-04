@@ -1,0 +1,6 @@
+config_schema_study.config_study_settings:
+  title: Config study settings
+  parent: system.admin_config_system
+  route_name: config_schema_study.config_study_settings
+  description: 'Form settings'
+  weight: 10
