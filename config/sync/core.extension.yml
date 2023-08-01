@@ -15,9 +15,11 @@ module:
   config_inspector: 0
   config_schema_study: 0
   contact: 0
+  content_reports: 0
   contextual: 0
   d10_field_type_experiments: 0
   d10_iframe_field: 0
+  d10_views_study: 0
   datetime: 0
   dblog: 0
   devel: 0
@@ -42,6 +44,8 @@ module:
   page_cache: 0
   path: 0
   path_alias: 0
+  phpass: 0
+  reports_extend: 0
   search: 0
   shortcut: 0
   system: 0
@@ -53,6 +57,7 @@ module:
   user: 0
   views_bulk_operations: 0
   views_ui: 0
+  visitors: 0
   views: 10
   standard: 1000
 theme:

@@ -1,0 +1,8 @@
+uuid: 821c1326-df2a-41a1-9885-50207a3a30cc
+langcode: en
+status: true
+dependencies: {  }
+name: News
+vid: news
+description: ''
+weight: 0

@@ -1,0 +1,36 @@
+_core:
+  default_config_hash: VcDF583t_YHIoWndmHKzgs3z10ZJXC1mlNLMDkwe6FM
+chart_height: 430
+chart_width: 700
+flush_log_timer: 0
+items_per_page: 10
+show_last_registered_user: true
+show_published_nodes: true
+show_registered_users_count: true
+show_since_date: true
+show_total_visitors: true
+show_unique_visitor: true
+show_user_ip: true
+start_count_total_visitors: 0
+theme: admin
+disable_tracking: false
+status_codes_disabled: {  }
+domain_mode: 0
+track:
+  userid: true
+codesnippet:
+  before: ''
+  after: ''
+privacy:
+  disablecookies: false
+visibility:
+  request_path_mode: 0
+  request_path_pages: "/admin\r\n/admin/*\r\n/batch\r\n/node/add*\r\n/node/*/*\r\n/user/*/*"
+  user_role_mode: 0
+  user_role_roles:
+    anonymous: '0'
+    authenticated: '0'
+    content_editor: '0'
+    administrator: '0'
+  user_account_mode: 1
+  exclude_user1: false

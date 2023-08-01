@@ -36,12 +36,10 @@ content:
     type: mdocviewer_field
     label: above
     settings:
-      frameborder: true
-      show_file_details: true
-      width: true
-      height: true
+      width: null
+      height: 600
     third_party_settings: {  }
-    weight: 103
+    weight: 106
     region: content
   links:
     settings: {  }
