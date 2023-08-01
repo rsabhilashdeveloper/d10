@@ -1,0 +1,7 @@
+reports_extend.export:
+  path: '/admin/reports/extend/{route}'
+  defaults:
+    _title: 'Export'
+    _controller: '\Drupal\reports_extend\Controller\ReportsExtendController::exportData'
+  requirements:
+    _permission: 'access content'

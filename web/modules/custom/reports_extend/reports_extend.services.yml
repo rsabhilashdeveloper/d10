@@ -1,0 +1,15 @@
+services:
+  reports_extend.controller_alter:
+    class: Drupal\reports_extend\EventSubscriber\ControllerAlterSubscriber
+    arguments: ['@router.route_provider','@reports_extend.general']
+    tags:
+      - { name: event_subscriber }
+  reports_extend.general:
+    class: Drupal\reports_extend\ReportsExtendService
+    arguments: ['@extension.path.resolver','@module_handler']
+
+  reports_extend.export_data:
+    class: Drupal\reports_extend\EventSubscriber\ExportDataSubscriber
+    arguments: ['@reports_extend.general']
+    tags:
+      - { name: 'event_subscriber' }

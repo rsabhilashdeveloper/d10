@@ -5,9 +5,11 @@ dependencies:
   config:
     - field.field.node.testing.body
     - field.field.node.testing.field_address
+    - field.field.node.testing.field_file
     - field.field.node.testing.field_iframe
     - node.type.testing
   module:
+    - file
     - path
     - text
 id: node.testing.default
@@ -31,13 +33,12 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_iframe:
-    type: string_textfield
-    weight: 26
+  field_file:
+    type: file_generic
+    weight: 27
     region: content
     settings:
-      size: 60
-      placeholder: ''
+      progress_indicator: throbber
     third_party_settings: {  }
   path:
     type: path
@@ -86,3 +87,4 @@ content:
     third_party_settings: {  }
 hidden:
   field_address: true
+  field_iframe: true

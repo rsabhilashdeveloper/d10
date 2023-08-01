@@ -5,10 +5,12 @@ dependencies:
   config:
     - field.field.node.testing.body
     - field.field.node.testing.field_address
+    - field.field.node.testing.field_file
     - field.field.node.testing.field_iframe
     - node.type.testing
   module:
     - address
+    - md_viewer
     - text
     - user
 id: node.testing.default
@@ -30,11 +32,14 @@ content:
     third_party_settings: {  }
     weight: 102
     region: content
-  field_iframe:
-    type: string
+  field_file:
+    type: mdocviewer_field
     label: above
     settings:
-      link_to_entity: false
+      frameborder: true
+      show_file_details: true
+      width: true
+      height: true
     third_party_settings: {  }
     weight: 103
     region: content
@@ -43,4 +48,5 @@ content:
     third_party_settings: {  }
     weight: 100
     region: content
-hidden: {  }
+hidden:
+  field_iframe: true

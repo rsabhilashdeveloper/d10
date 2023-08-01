@@ -1,0 +1,4 @@
+administer d10_views_study configuration:
+  title: 'Administer d10_views_study configuration'
+  description: 'Optional description.'
+  restrict access: true

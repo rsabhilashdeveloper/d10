@@ -1,0 +1,5 @@
+name: Content Reports
+type: module
+description: Custom module for content reports list and export
+package: Custom
+core_version_requirement: ^9 || ^10

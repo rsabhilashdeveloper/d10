@@ -1,0 +1,8 @@
+content_reports.example:
+  path: '/admin/content-reports/listing'
+  defaults:
+    _title: 'Content Reports'
+    _controller: '\Drupal\content_reports\Controller\ContentReportsController::build'
+  requirements:
+    _permission: 'access content'
+

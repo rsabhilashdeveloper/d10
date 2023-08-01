@@ -1,0 +1,5 @@
+name: Reports Extend
+type: module
+description: Module extends the functionality of reports
+package: Custom
+core_version_requirement: ^9 || ^10
